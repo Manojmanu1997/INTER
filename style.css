@@ -1,0 +1,61 @@
+*{
+    margin-top: 0px;;
+}
+
+body{
+margin-left: 5%;
+margin-right: 5%;
+border: 1px solid blue;
+}
+
+#sheading,.sheading{
+text-align: center;
+text-decoration: underline;
+background-color: burlywood;
+padding: 10px 0 10px 0;
+color: red;
+}
+
+section{
+background-color: aquamarine;
+}
+
+#stable td, #stable th{
+    padding: 10px 0px 10px 200px;
+}
+
+#stable tr:hover{
+    background-color: blueviolet;
+}
+
+#stable{
+    width: 50%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+#uform{
+    width: 80%;
+    margin: auto;
+    background-color: violet;
+}
+
+label{
+    width: 170px;
+    float: left;
+}
+
+#idtext{
+    width: 300px;
+}
+
+.btn{
+    width: 140px;
+    color: turquoise;
+
+}
+.btn:hover{
+    color: yellowgreen;
+
+}
+

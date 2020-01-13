@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Learning HTML</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section id="home">
+        <h3 id="sheading">Here is the Example for all HTML Elements</h3>
+        <ol>
+            <li><a href="#header">Header</a></li>
+            <li><a href="#typography">Typography</a></li>
+            <li><a href="#list">List</a></li>
+            <li><a href="#table">Table</a></li>
+            <li><a href="#form">Form</a></li>
+            <li><a href="#image">Images</a></li>
+            <li><a href="#hlink">Hyperlinks</a></li>
+        </ol>
+    </section>
+    <hr />
+    <H3 id="header" class="sheading">Headings</H3>
+
+    <h1>Heading - 1</h1>
+    <h2>Heading - 2</h2>
+    <h3>Heading - 3</h3>
+    <h4>Heading - 4</h4>
+    <h5>Heading - 5</h5>
+    <h6>Heading - 6</h6>
+    <hr />
+    <h3 id="typography" class="sheading">Typography</h3>
+
+
+    <p id="typography">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi amet architecto voluptatem eveniet cupiditate
+        tempora provident saepe repellat voluptates beatae voluptate illum, impedit ex nobis quia enim nihil ad ipsum?
+    </p>
+
+    <b>HTML - Bold Tag</b><br />
+    <i>HTML - Italic Tag</i><br />
+    <u>HTML - Underline Tag</u>
+
+    <p><b>HTML - Bold Tag</b></p>
+    <p><i>HTML - Italic Tag</i></p>
+    <p><u>HTML - Underline Tag</u></p>
+    <hr />
+    <h3 id="sheading">Super and Sub Script</h3>
+    Super: &nbsp;R<sup>3</sup><br>
+    Sub: &nbsp;H<sub>2</sub>O
+    <hr />
+    <h3 id="list" class="sheading">Order and Unorder</h3>
+    <h3>UI - Ordered LIst</h3>
+    <ol type="1">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>BootStrap</li>
+        <li>AJAX</li>
+        <li>Angular</li>
+    </ol>
+
+    <h3>UI - UnOrdered LIst</h3>
+    <ul type="circle">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>BootStrap</li>
+        <li>AJAX</li>
+        <li>Angular</li>
+    </ul>
+    <h3>Nested List</h3>
+    <ol type="1">
+        <li>PG
+            <ul type="Square">
+                <li>MBA</li>
+                <li>MCA</li>
+            </ul>
+        </li>
+        <li>UG
+            <ul type="Square">
+                <li>BE</li>
+                <li>BSC</li>
+                <li>BBM</li>
+            </ul>
+        </li>
+    </ol>
+    <hr />
+    <h3 class="sheading" id="table"> Tables</h3>
+    <table id="stable">
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Mobile</th>
+        </tr>
+        <tr>
+            <td>Manoj</td>
+            <td>Manojhennagara@gmail.com</td>
+            <td>7338471604</td>
+        </tr>
+        <tr>
+            <td>Kiran</td>
+            <td>Kiran@gmail.com</td>
+            <td>9008659177</td>
+        </tr>
+        <tr>
+            <td>Manoj</td>
+            <td>Manojhennagara@gmail.com</td>
+            <td>7338471604</td>
+        </tr>
+        <tr>
+            <td>Kiran</td>
+            <td>Kiran@gmail.com</td>
+            <td>9008659177</td>
+        </tr>
+    </table>
+
+    <br><br>
+    <h3>Example of Employee</h3>
+    <table border="1px">
+        <tr>
+            <th colspan="5">Heraizen-Employes</th>
+        </tr>
+        <tr>
+            <th rowspan="2 ">Empno</th>
+            <th rowspan="2">Ename</th>
+            <th rowspan="2">email</th>
+            <th colspan="2">Score</th>
+        </tr>
+        <tr>
+            <th>Test-1</th>
+            <th>Test-2</th>
+        </tr>
+        <tr>
+            <td>007</td>
+            <td>Manoj</td>
+            <td>Manojhennagara@gmail.com</td>
+            <td>45</td>
+            <td>55</td>
+        </tr>
+    </table>
+    <br><br>
+    <h3>Example of Time table</h3>
+    <table border="1">
+        <tr>
+            <th colspan="7">MITE TimeTable</th>
+        </tr>
+        <tr>
+            <th>Day</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th rowspan="4" style="writing-mode: vertical-lr; width: 20px;">break</th>
+            <th>4</th>
+            <th>5</th>
+        </tr>
+        <tr>
+            <th>Monday</th>
+            <td>sub1</td>
+            <td>sub2</td>
+            <td>sub3</td>
+            <td>free</td>
+            <td>free</td>
+            </td>
+        </tr>
+        <tr>
+            <th>Tuesday</th>
+            <td>sub1</td>
+            <td>sub3</td>
+            <td>free</td>
+            <td>sub4</td>
+            <td>sub5</td>
+            </td>
+        </tr>
+        <tr>
+            <th>Wednesday</th>
+            <td>sub1</td>
+            <td>sub</td>
+            <td>sub3</td>
+            <td>sub5</td>
+            <td>sub4</td>
+            </td>
+        </tr>
+    </table><br>
+    <hr />
+    <h3 class="sheading" id="image">Images</h3 class="sheading">
+    <img src="images/html_1.jpeg" alt="This is a HTML Image">
+    <hr />
+    <h3 class="sheading" id="form">Forms</h3>
+    <form action="" id="uform">
+        <fieldset>
+            <legend>User Registration</legend>
+            <p>
+                <label>Name:</label>
+                <input type="text" name="name" id="idtext">
+            </p>
+            <p>
+                <label>Email:</label>
+                <input type="email" name="email" id="idtext">
+            </p>
+            <p>
+                <p>
+                    <label>Gender:</label>
+                    <input type="radio" name="gender" value="M">M
+                    <input type="radio" name="gender" value="F">F
+                </p>
+                <p>
+                    <label>Hobbies:</label>
+                    <input type="checkbox" name="Hobbies" value="Reading Book">Reading Book
+                    <input type="checkbox" name="Hobbies" value="Playing Cricket">Playing Cricket
+                    <input type="checkbox" name="Hobbies" value="Watching Movies">Watching Movies
+                </p>
+                <p>
+                    <label>Qualification:</label>
+                    <select name="qualification">
+                        <option value="">Select Qualification</option>
+                        <option value="BE">BE</option>
+                        <option value="M.Tech">M.Tech</option>
+                        <option value="MS">MS</option>
+                        <option value="MCA">MCA</option>
+                    </select>
+                </p>
+                <p>
+                    <label>Areas of Intrests:</label>
+                    <select name="areas" multiple>
+                        <option value="Developer">Developer</option>
+                        <option value="Testing">Testing</option>
+                        <option value="Teaching">Teaching</option>
+                        <option value="Design">Design</option>
+                        <option value="AI">AI</option>
+                        <option value="ML">ML</option>
+                        <option value="Business Developer">Business Developer</option>
+                    </select>
+                </p>
+                <p>
+                    <label>More Details:</label>
+                    <textarea name="moredetails" cols="50" rows="4"></textarea>
+                </p>
+                <label>&nbsp;</label>
+                <input class="btn" type="submit" name="submit" value="submit">
+            </p>
+        </fieldset>
+    </form><br>
+    <hr />
+    <h3 class="sheading" id="hlink">Hyperlinks</h3>
+    <a href="http://www.facebook.com" target="_blank">Facebook</a><br>
+    <a href="https://alvasgroup.dhi-edu.com/alvasgroup_aiet/" target="_blank">Alvas Dhi</a>
+    <br><a href="#home">Go to Top</a>
+    <br><a href="linking_page.html">Move to Landing Page</a>
+</body>
+
+</html>
